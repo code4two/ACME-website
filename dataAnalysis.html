@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACME Software Lab</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
+</head>
+<body>
+    <header>
+        <nav class="pt-6 flex justify-between font-medium container mx-12 px-6">
+            <div>
+                <h1 class="font-bold text-blue-900 text-2xl">ACME</h1>
+                <!-- <small class="font-normal">Software lab.</small> -->
+            </div>
+            <div class="border-1 border-blue-900 rounded-md py-2 px-1">
+                <i class="fa-solid fa-magnifying-glass text-gray-700 mr-1 ml-2"></i>
+                <input class="font-normal text-md outline-none w-70 text-gray-700" type="text" name="" id="" placeholder="Want to learn?">
+                <a class="bg-slate-200 rounded-md p-2 text-blue-900" href="#">Explore <span><i class="fa-solid fa-chevron-down ml-1 text-blue-900"></i></span></a>
+            </div>
+            <ul class="flex gap-4 p-2">
+                <li><a class="text-blue-900" href="Homepage.html">Home</a></li>
+                <li><a class="hover:border-b-2 hover:border-blue-900" href="aboutUs.html">About Us</a></li>
+                <li><a class="hover:border-b-2 hover:border-blue-900" href="webDev.html" id="bag">Courses</a></li>
+                <li><a class="hover:border-b-2 hover:border-blue-900" href="contactUs.html">Contact us</a></li>
+                <li><a class="hover:border-b-2 hover:border-blue-900" href="#">FAQ's</a></li>
+            </ul>
+            <div class="flex gap-2">
+                <a class="rounded-md px-4 py-2" href="signUp.html">Sign Up</a>
+                <a class="bg-blue-900 rounded-md px-4 py-2 text-white" href="login.html">Login</a>
+            </div>
+        </nav>
+        <section class="grid grid-cols-12 gap-28 container mx-12 px-6 mt-12">
+            <div class="col-span-6">
+                <h1 class="font-bold text-5xl mb-4 text-blue-900">Data Analysis</h1>
+                <div class="font-normal">
+                    <p class="my-8">
+                        At ACME Softwarelab, our Data Analysis Services transform raw data 
+                        into actionable insights to help your business make informed decisions.
+                        We specialize in data collection, cleaning, visualization, and advanced
+                        analystics using the latest tools and technologies.
+                    </p>
+                    <p>
+                        Our team of experienced analysts work closely with you to understand 
+                        your unique challenges and objectives, delivering customized solutions
+                        that drive growth, optimize operations, and enhance customer experience.
+                        Whether it's identifying market trends, improving effeciency, or ehancing 
+                        strategic planning, we provide the insights you need to stay ahead in a 
+                        data-driven world. 
+                    </p>
+                </div>
+                <div class="text-white font-semibold mt-12 mb-2 flex justify-between">
+                    <div class="bg-blue-900 py-4 px-8 rounded-lg inline-block">
+                        <a href="contactUs.html">Contact Us<span><i class="fa-solid fa-arrow-right ml-4"></i></span></a>
+                    </div>
+                    <div class="bg-blue-900 py-4 px-8 rounded-lg inline-block">
+                        <a href="projectDev.html">Next Page<span><i class="fa-solid fa-arrow-right ml-4"></i></span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-span-6 w-100 bg-gray-100">
+                <div>
+                    <div class="flex justify-center">
+                         <img class="w-70 h-38 rounded-lg -mt-4 mb-3 -mr-40" src="Images/webdesign2.jpg" alt="learning image">
+                    </div>
+                    <div>
+                        <img class="w-70 h-40 rounded-lg -ml-6" src="Images/webdesign.jpg" alt="learning image">
+                    </div>
+                    <div class="flex justify-center">
+                        <img class="w-70 h-38 rounded-lg -mb-4 mt-3 -mr-40" src="Images/learning6.jpg" alt="learning image">
+                    </div>
+                </div>                
+            </div>
+        </section>
+    </header>
+</body>
+</html>
